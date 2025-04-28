@@ -71,7 +71,7 @@ Il pourra **répondre partiellement** à vos questions, **ou pas du tout**, pour
 
 - [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [daisyUI](https://daisyui.com/
+- [daisyUI](https://daisyui.com/)
 
  **Images libre de droit**
 - [Unsplash](https://unsplash.com/)
