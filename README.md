@@ -13,16 +13,7 @@ L'objectif est de créer une petite application web permettant de générer
 Le café **CoffeeCraft** souhaite ouvrir son premier site internet pour promouvoir son concept de cafés artisanaux et d'ateliers de torréfaction.  
 Ils ont fait appel à votre agence web pour la création du site vitrine.
 
-Le client vous a fourni des maquettes graphiques pour :
-- la page d'accueil
-- la page "Nos cafés"
-- la page "Contact"
-
 Il a également partagé un pack d'images libres de droits ainsi que les polices de caractères à utiliser.
-
-<div align="center">
-    <img src="./images/password-generator.svg" alt="password-generator.svg" style="width: 500px !important;">
-</div>
 
 ## Particularités à respecter
 
@@ -44,7 +35,6 @@ Il pourra **répondre partiellement** à vos questions, **ou pas du tout**, pour
 ## Modalités d'évaluation
 
 - **Présentation orale** rapide du projet (~5 minutes par binôme).
-- **Évaluation croisée** par les autres groupes (code + ergonomie + respect de la consigne).
 - **Retour personnalisé** du formateur.
 
 
@@ -60,7 +50,6 @@ Il pourra **répondre partiellement** à vos questions, **ou pas du tout**, pour
 
 ## Critères de performance
 
-- Le site est **fidèle** aux maquettes fournies pour desktop.
 - L'**adaptation mobile** est cohérente et élégante.
 - Le **responsive** est géré de manière **propre** avec Tailwind (breakpoints, flexibilité, lisibilité).
 - Le code HTML est **sémantique** et **valide** W3C.
