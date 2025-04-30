@@ -1,110 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carte - SimplonCoffeeCraft</title>
-  <link rel="stylesheet" href="src/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carte - SimplonCoffeeCraft</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <nav class="top">
-      <ul>
-        <li>Acceuil</li>
-        <li>Carte</li>
-        <li>Nous-Contacter</li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <h1>Notre Carte</h1>
-    <section id="main_cont">
-        <section class="w-9/12 bg-slate-300 flex" id="cafe_cont">
-            <h2>Nos Cafés</h2>
-            <section id="cafés">
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="../../public/img-Ali/img13.jpg" alt="Espresso">
-                    </figure>
-                    <h3>L'Espresso</h3>
-                    <p>Le classique</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Espresso">
-                    </figure>
-                    <h3>L'Espresso</h3>
-                    <p>Le classique</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Espresso">
-                    </figure>
-                    <h3>L'Espresso</h3>
-                    <p>Le classique</p>
-                </article>
-                <article>
-                    <p>Nos cafés sont issus uniquement d'une culture responsable et nous travaillons avec Les 
-                        meilleurs torréfacteurs pour vous procurer une qualité inégalée</p>
-                </article>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-white shadow">
+        <nav class="container mx-auto p-4">
+            <ul class="flex space-x-4">
+                <li><a href="./index.html" class="hover:text-blue-500">Accueil</a></li>
+                <li><a href="./carte.html" class="hover:text-blue-500">Notre Carte</a></li>
+                <li><a href="./contact.html" class="hover:text-blue-500">Contact</a></li>
+                <li><a href="#" class="hover:text-blue-500">Événements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text-center text-6xl">Notre Carte</h1>
+        <section id="main_cont" class="m-16 flex flex-col justify-center items-center">
+            <section id="cafe_cont" class="w-8/12 h-96 flex-col">
+                <h2 class="text-4xl font-pacifico">Nos Cafés</h2>
+                <section id="cafés" class="bg-slate-200 flex justify-evenly items-center columns-2 flex-wrap rounded-3xl shadow-lg p-4 mt-1">
+                    <article class="h-96">
+                        <figure class="h-96 overflow-hidden ">
+                            <img src="./images/produit1.jpg" alt="Espresso Classico">
+                        </figure>
+                        <h3>Espresso Classico</h3>
+                        <p>Court, intense, un pur concentré d'arôme.</p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="#" alt="Cappuccino Vanille">
+                        </figure>
+                        <h3>Cappuccino Vanille</h3>
+                        <p>Mousse légère, vanille douce et café corsé.</p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="#" alt="Latte Noisette">
+                        </figure>
+                        <h3>Latte Noisette</h3>
+                        <p>Un nuage de lait chaud et une touche de noisette.</p>
+                    </article>
+                    <article>
+                        <p>Nos cafés sont issus uniquement d'une culture responsable et nous travaillons avec Les 
+                            meilleurs torréfacteurs pour vous procurer une qualité inégalée</p>
+                    </article>
+                </section>
             </section>
-        </section>
 
-        <section id="smooth_cont">
-            <h2>Nos Smoothies</h2>
-            <section id="smoothies">
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Smoothie Fraise">
-                    </figure>
-                    <h3>Smoothie fraise</h3>
-                    <p>jhdkbkjhldxhvxdbhfhgblkfhlk</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Smoothie Fraise">
-                    </figure>
-                    <h3>Smoothie fraise</h3>
-                    <p>jhdkbkjhldxhvxdbhfhgblkfhlk</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Smoothie Fraise">
-                    </figure>
-                    <h3>Smoothie fraise</h3>
-                    <p>jhdkbkjhldxhvxdbhfhgblkfhlk</p>
-                </article>
-            </section>
         </section>
+    </main>
 
-        <section id="cake_cont">
-            <h2>Nos Gâteaux</h2>
-            <section id="cakes">
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Fondant au chocolat">
-                    </figure>
-                    <h3>Fondant au chocolat</h3>
-                    <p>Cacao issu de cultures responsables</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Fondant au chocolat">
-                    </figure>
-                    <h3>Fondant au chocolat</h3>
-                    <p>Cacao issu de cultures responsables</p>
-                </article>
-                <article>
-                    <figure>
-                        <img class="w-10 h-8" src="./img/img13.jpg" alt="Fondant au chocolat">
-                    </figure>
-                    <h3>Fondant au chocolat</h3>
-                    <p>Cacao issu de cultures responsables</p>
-                </article>
-            </section>
-        </section>
-    </section>
-  </section>
-  <script src="src/js/main.js"></script>
+    <footer class="bg-white shadow mt-4">
+        <div class="container mx-auto p-4 text-center">
+            <p>&copy; 2023 Simplon Coffee Craft. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+  <!-- <script src="./main.js"></script> -->
 </body>
 </html>
