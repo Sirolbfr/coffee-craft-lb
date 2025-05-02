@@ -5,10 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        '4/5': '4 / 5',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         bebas: ['Bebas Neue', 'cursive'],
         pacifico: ['Pacifico', 'cursive'],
+        fredoka: ['Fredoka'],
       },
     },
   },

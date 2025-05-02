@@ -6,6 +6,7 @@
     <title>Carte - SimplonCoffeeCraft</title>
     <link href="../src/output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-100 text-gray-800">
     <header class="bg-white shadow">
@@ -19,39 +20,116 @@
         </nav>
     </header>
     <main>
-        <h1 class="text-center text-6xl">Notre Carte</h1>
-        <section id="main_cont" class="m-16 flex flex-col justify-center items-center">
-            <section id="cafe_cont" class="w-10/12 h-96 flex-col">
-                <h2 class="text-4xl font-pacifico">Nos Cafés</h2>
-                <section id="cafés" class="bg-slate-300 flex justify-evenly rounded-3xl shadow-lg p-4 columns-2 flex-wrap">
-                    <article class="h-96">
-                        <figure class="h-96 overflow-hidden rounded-3xl">
-                            <img src="./images/produit1.jpg" alt="Espresso Classico">
+        <h1 class="text-center text-5xl my-10 font-fredoka">Notre Carte</h1>
+        <section id="main_cont" class="mx-4 flex flex-col justify-center items-center gap-8">
+            <section id="cafe_cont" class="product_section">
+                <h2 class="text-3xl font-pacifico">Nos Cafés</h2>
+                <section id="cafés" class="product_sub_section">
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/cafe1.jpg" alt="Espresso Classico" class="img">
                         </figure>
-                        <h3>Espresso Classico</h3>
-                        <p>Court, intense, un pur concentré d'arôme.</p>
+                        <h3 class="h3">Espresso Classico</h3>
+                        <p class="desc">Court, intense, un pur concentré d'arôme.</p>
                     </article>
-                    <article>
-                        <figure>
-                            <img src="#" alt="Cappuccino Vanille">
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/cafe2.avif" alt="Cappuccino Vanille" class="img">
                         </figure>
-                        <h3>Cappuccino Vanille</h3>
-                        <p>Mousse légère, vanille douce et café corsé.</p>
+                        <h3 class="h3">Cappuccino Vanille</h3>
+                        <p class="desc">Mousse légère, vanille douce et café corsé.</p>
                     </article>
-                    <article>
-                        <figure>
-                            <img src="#" alt="Latte Noisette">
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="#" alt="Latte Noisette" class="img">
                         </figure>
-                        <h3>Latte Noisette</h3>
-                        <p>Un nuage de lait chaud et une touche de noisette.</p>
+                        <h3 class="h3">Latte Noisette</h3>
+                        <p class="desc">Un nuage de lait chaud et une touche de noisette.</p>
                     </article>
-                    <article>
-                        <p>Nos cafés sont issus uniquement d'une culture responsable et nous travaillons avec Les 
-                            meilleurs torréfacteurs pour vous procurer une qualité inégalée</p>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="#" alt="Café Glacé Caramel" class="img">
+                        </figure>
+                        <h3 class="h3">Café Glacé Caramel</h3>
+                        <p class="desc">Café froid, caramel fondant, sur glace.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="#" alt="Macchiato Moka" class="img">
+                        </figure>
+                        <h3 class="h3">Macchiato Moka</h3>
+                        <p class="desc">Chocolat noir et espresso, nappé de mousse.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="#" alt="Flat White Amande" class="img">
+                        </figure>
+                        <h3 class="h3">Flat White Amande</h3>
+                        <p class="desc">Crémeux, équilibré, avec lait d'amande.</p>
+                    </article>
+                    <article class="article-text col-span-2">
+                        <p class="white-text">Nos cafés sont issus d'une culture responsable, et nous collaborons avec des torréfacteurs d'exception pour vous offrir une qualité incomparable en tasse.</p>
                     </article>
                 </section>
             </section>
-
+            <section id="smoothies_cont" class="product_section">
+                <h2 class="text-3xl font-pacifico">Nos Smoothies</h2>
+                <section id="smoothies" class="product_sub_section">
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/smooth1.avif" alt="Fraise Gourmande" class="img">
+                        </figure>
+                        <h3 class="h3">Fraise Gourmande</h3>
+                        <p class="desc">Fraise, banane, yaourt nature.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/produit2.avif" alt="Énergie Verte" class="img">
+                        </figure>
+                        <h3 class="h3">Énergie Verte</h3>
+                        <p class="desc">Épinard, pomme, kiwi, citron vert.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/smooth3.avif" alt="Douceur Tropicale" class="img">
+                        </figure>
+                        <h3 class="h3">Douceur Tropicale</h3>
+                        <p class="desc">Mangue, ananas, lait de coco.</p>
+                    </article>
+                    <article class="article-text">
+                        <p class="white-text">Élaborés à partir de fruits frais, nos smoothies sont aussi issus de producteurs engagés, pour vous garantir fraîcheur, saveur et vitalité à chaque gorgée.</p>
+                    </article>
+                </section>
+            </section>
+            <section id="cakes_cont" class="product_section">
+                <h2 class="text-3xl font-pacifico">Nos Gâteaux</h2>
+                <section id="cakes" class="product_sub_section">
+                    <article class="article-text">
+                        <p class="white-text">Laissez-vous tenter par 3 pâtisseries maison, moelleuses et riches en saveurs, idéales pour sublimer votre pause café ou satisfaire une irrésistible envie sucrée à tout moment.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/smooth1.avif" alt="Fraise Gourmande" class="img">
+                        </figure>
+                        <h3 class="h3">Fondant Chocolat Noir</h3>
+                        <p class="desc">Cœur coulant, intense en cacao noir et fondant à souhait.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/produit2.avif" alt="Énergie Verte" class="img">
+                        </figure>
+                        <h3 class="h3">Carrot Cake Crémeux</h3>
+                        <p class="desc">Moelleux, épices douces, glaçage au fromage frais.</p>
+                    </article>
+                    <article class="article">
+                        <figure class="figure">
+                            <img src="./images/smooth3.avif" alt="Douceur Tropicale" class="img">
+                        </figure>
+                        <h3 class="h3">Cheesecake Framboise</h3>
+                        <p class="desc">Base biscuitée, coulis de framboise acidulé.</p>
+                    </article>
+                </section>
+            </section>
         </section>
     </main>
 
