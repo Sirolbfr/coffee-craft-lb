@@ -4,7 +4,7 @@
 L'objectif est de créer une petite application web permettant de générer
 
 <div align="center">
-    <img src="./public/images/SimplonCoffeeCraft.png" alt="SimplonCoffeeCraft.png" style="width: 500px !important;">
+    <img src="./tailwind-website/public/images/SimplonCoffeeCraft.png" alt="SimplonCoffeeCraft.png" style="width: 500px !important;">
 </div>
 
 

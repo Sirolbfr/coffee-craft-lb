@@ -9,30 +9,46 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
-  <header class="bg-white shadow">
-    <nav class="container mx-auto p-4">
-      <ul class="flex space-x-4">
-        <li><a href="#" class="hover:text-blue-500">Accueil</a></li>
-        <li><a href="#" class="hover:text-blue-500">Notre Carte</a></li>
-        <li><a href="#" class="hover:text-blue-500">Contact</a></li>
-        <li><a href="#" class="hover:text-blue-500">Événements</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header class="relative bg-[#f5eee6] min-h-[400px] flex items-center justify-center overflow-hidden">
+  <img src="images/img2.jpg" alt="Tasse de café" class="absolute inset-0 w-full h-full object-cover opacity-40" />
+  <div class="relative z-10 container mx-auto flex flex-col md:flex-row items-center justify-between py-12 px-6">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+      <h1 class="text-5xl font-bebas text-[#6f4e37] mb-4">Le meilleur café de Paris</h1>
+      <p class="text-xl text-[#6f4e37] mb-6">Savourez une expérience unique dans notre coffee shop artisanal.</p>
+      <a href="#" class="bg-[#3d8361] text-white px-6 py-3 rounded-full font-bold shadow hover:bg-green-700 transition">Découvrir notre carte</a>
+    </div>
+  </div>
+  <nav class="absolute top-0 left-0 w-full z-20">
+  <div class="container mx-auto p-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center">
+      <img src="images/SimplonCoffeeCraft.png" alt="Logo Simplon Coffee Craft" class="h-12 w-auto mr-4">
+      <span class="sr-only">Accueil</span>
+    </a>
+    <ul class="flex-1 flex justify-center space-x-4 bg-white/80 rounded-full px-4 py-2 shadow">
+      <li><a href="index.html" class="hover:text-blue-500">Accueil</a></li>
+      <li><a href="carte.html" class="hover:text-blue-500">Notre Carte</a></li>
+      <li><a href="contact.html" class="hover:text-blue-500">Contact</a></li>
+      <li><a href="evenements.html" class="hover:text-blue-500">Événements</a></li>
+    </ul>
+    <div class="w-16"></div>
+  </div>
+</nav>
+</header>
 
   <main class="container mx-auto p-4">
-    <h1 class="text-3xl font-bold">Bienvenue chez Simplon Coffee Craft</h1>
-    <p class="mt-2">Votre café artisanal à Paris.</p>
-    <div class="bg-slate-300 p-4 rounded shadow mt-4 text-center">
-      <h2 class="text-3xl font-bold text-blue-500">Test Tailwind</h2>
-      <p class="mt-2 text-gray-700">Si ce bloc est bleu, gris et arrondi, Tailwind fonctionne !</p>
-    </div>
-    <div class="mt-8 flex flex-col items-center">
-      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full shadow-lg transition">
-        Bouton Test Tailwind
-      </button>
-      <p class="mt-4 text-lg text-green-700">Ce bouton doit être vert, arrondi et avoir une ombre.</p>
-    </div>
+    <section class="bg-white rounded-lg shadow p-6 mb-8">
+      <h2 class="text-3xl font-bold text-[#6f4e37] mb-4">Nos Spécialités</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-[#f5eee6] rounded-lg shadow p-4">
+          <img src="images/natsuki-aida-Vx9Sb6tZDNw-unsplash.jpg" alt="Café Latte" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-bold text-[#6f4e37]">Café Latte</h3>
+          <p class="text-gray-600">Un mélange parfait de café expresso et de lait crémeux.</p>
+        </div>
+        <div class="bg-[#f5eee6] rounded-lg shadow p-4">
+          <img src="images/wu-yi-mk7zhx5lFbc-unsplash.jpg" alt="Cappuccino" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-bold text-[#6f4e37]">Cappuccino</h3>
+          <p class="text-gray-600">Un café expresso avec une mousse de lait légère et aérienne.</p>
+        </div>
   </main>
 
   <footer class="bg-white shadow mt-4">
